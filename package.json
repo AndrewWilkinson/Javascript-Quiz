@@ -1,0 +1,11 @@
+{
+  "name": "javascript-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Andrew Wilkinson",
+  "license": "ISC"
+}
