@@ -10,6 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
+        <!-- Working quiz data MUST come before index.js -->
+    <script type="text/javascript" src="quiz data/Learning styles.js"></script>
+    <!-- <script type="text/javascript" src="quiz data/another quiz.js"></script> -->
+
     <script type="text/javascript" src="js/index.js"></script>
 
     <title>Javascript Quiz</title>
@@ -66,7 +70,7 @@
                         Previous
                     </button>
 
-                    <div id="answered-state-feedback" data-bs-toggle="tooltip" style="width: 200px; text-align: center;"
+                    <div id="answered-state-feedback" class="unanswered" data-bs-toggle="tooltip"
                         title="When you select your answer it will be saved and this text will update">
                         <i> Question not yet answered.</i>
                     </div>
