@@ -3,7 +3,7 @@ let yourQuiz = [["Learn about our instructors", { instructions: "The choice is y
     {
         a: ["Colin:", "<ul><li>Uses Windows</li><ul>"],
         b: ["Neil:", "<ul><li>Uses macOS</li></ul>"],
-        c: ["Vincent:", "<ul><li>Is American</li></ul>"]
+        c: ["Vincent:", "<ul><li>Is American</li><li>Is American</li><li>Is American</li></ul>"]
     }
 ],
 ["Which instructor do you need to know more about?",
