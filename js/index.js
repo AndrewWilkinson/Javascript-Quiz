@@ -18,6 +18,10 @@ function presentQuiz(quizTitle, quizInstructions, quizLengthSelector) {
     document.getElementById(quizTitle).innerText = yourQuiz[0][0];
     document.getElementById(quizInstructions).innerText = yourQuiz[0][1].instructions;
     document.getElementById(quizLengthSelector).max = yourQuestions.length;
+
+    document.getElementById('previous-button').disabled = true;
+    document.getElementById('next-button').disabled = true;
+
 }
 
 function setupQuestion(questionNumber) {
@@ -196,6 +200,7 @@ function beginQuiz(quizLength, elementsToHide) {
 
     currentQuestion = 0;
 
+    document.getElementById('next-button').disabled = false;
     selectedQuizLength = parseInt(quizLength);                 //just incase value recieved is a string
     yourQuestions = yourQuestions.slice(-selectedQuizLength);  //Keeps only the last x many questions
     yourAnswers = yourAnswers.slice(-selectedQuizLength);    //Keeps only the last x many answers
